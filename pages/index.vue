@@ -20,12 +20,19 @@
   <div class="h-52">
    <h1 class="font-black text-2xl text-center">clients</h1>
   </div>
-  <div class="flex flex-col justify-center items-center h-[600px]">
+  <div class="h-[600px]">
    <h1 class="font-black text-2xl text-center">contact us</h1>
-   <input type="text" class="border-2 border-orange-400 w-2/5 h-12 mb-5" placeholder="Your Name" />
-   <input type="text" class="border-2 border-orange-400 w-2/5 h-12 mb-5" placeholder="Your email e.g. johnsmith@example.com" />
-   <textarea rows="10" class="border-2 border-orange-400 w-2/5 mb-5">Your Message</textarea>
-   <button class="bg-orange-400 w-36 h-12">Send Message</button>
+   <div class="flex justify-between w-10/12 mx-auto">
+    <div class="w-2/5">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero possimus omnis atque necessitatibus dicta quos eos velit aliquam vel, culpa nisi earum, architecto asperiores nihil magni laboriosam error repudiandae qui.
+    </div>   
+    <div class="flex flex-col w-3/6">
+     <input type="text" class="border-2 border-orange-400 h-12 mb-5" placeholder="Your Name" />
+     <input type="text" class="border-2 border-orange-400 h-12 mb-5" placeholder="Your email e.g. johnsmith@example.com" />
+     <textarea rows="10" class="border-2 border-orange-400 mb-5">Your Message</textarea>
+     <button class="bg-orange-400 w-36 h-12 mx-auto">Send Message</button>
+    </div>
+   </div>
   </div>
  </div>
 </template>
