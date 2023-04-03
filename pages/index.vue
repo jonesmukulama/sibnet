@@ -1,6 +1,8 @@
 <template>
  <div class="min-h-screen">
-  <div class="h-[660px] bg-slate-700 overflow-hidden flex"></div>
+  <div class="h-[660px] before:bg-gradient-to-t before:absolute before:w-full bg-slate-700 overflow-hidden flex">
+   <img src="../assets/img/img_1.jpg" width="1920" alt="">
+  </div>
   <div class="flex justify-between items-center h-56">
    <div class="flex justify-between w-10/12 mx-auto">
     <div class="w-1/2">
